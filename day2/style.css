@@ -1,0 +1,116 @@
+#calc-body {
+    width: fit-content;
+    height: fit-content;
+    background-color: #252525;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.5rem 1rem #00000088;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#display {
+    width: fit-content;
+    height: fit-content;
+    padding: 0.5rem 1rem;
+    background-color: #252525;
+    border-radius: 0.5rem;
+    color: #eaeaea;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: end;
+    box-shadow: 0 0.5rem 1rem #00000088;
+    user-select: none;
+    -webkit-user-select: none;
+    outline: 0.1rem solid #eaeaea70;
+}
+
+#display:hover {
+    box-shadow: 0 0rem 3rem #cc151588;
+    cursor: pointer;
+
+}
+
+.number {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    color: #eaeaea;
+    border: none;
+    outline: #0fabce 1px solid;
+}
+
+.number:hover{
+    cursor: pointer;
+    background-color: #353535;
+}
+
+.operator {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    color: #eaeaea;
+    border: none;
+    outline: #0fce9e 1px solid;
+}
+.operator:hover{
+    cursor: pointer;
+    background-color: #353535;
+}
+#equal {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    color: #eaeaea;
+    border: none;
+    outline: #ceab0f 1px solid;
+}
+#equal:hover{
+    cursor: pointer;
+    background-color: #353535;
+}
+#clear {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    color: #eaeaea;
+    border: none;
+    outline: #ce1c0f 1px solid;
+    width: 100%;
+}
+#clear:hover{
+    cursor: pointer;
+    background-color: #353535;
+}
+
+.container {
+    animation: bgRGB 5s infinite alternate;
+}
+
+@keyframes bgRGB {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}

@@ -1,0 +1,50 @@
+
+.descripton {
+    font-family: var(--main-font);
+    font-size: 1rem;
+    margin: 0rem 2rem;
+}
+
+#sun {
+    width: 12rem;
+    height: 12rem;
+    display: block;
+}
+
+#moon {
+    width: 8rem;
+    height: 8rem;
+    display: none;
+    margin: 1rem;
+    color: #2fa3f0;
+}
+
+.sunMoon {
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+}
+
+.container-light-dark {
+    background-image: url("background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #2fa3f0;
+}
+.card-light-dark {
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #eaeaea;
+    box-shadow: #00000070 2px 2px 4px;
+    color: #252525;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0rem 2rem;
+}

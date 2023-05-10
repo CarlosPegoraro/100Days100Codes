@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+
+.container {
+    background-color: #252525;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons {
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#watch {
+    width: fit-content;
+    height: fit-content;
+    background-color: #252525;
+    border: #d8d8d8 5px solid;
+    padding: 5% 10%;
+    border-radius: 10px 90px 10px 90px;
+    text-align: center;
+}
+.button {
+    width: 4rem;
+    height: 1rem;
+    background-color: #d8d8d8;
+    border-bottom: none;
+    border-radius: 0 0 60px 60px;
+}
+
+#display {
+    font-size: 2rem;
+    color: #eaeaea;
+    font-family: 'Comme', sans-serif;
+}
+
+.separator {
+    display: none;
+}

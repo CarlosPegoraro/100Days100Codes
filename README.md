@@ -1,2 +1,3 @@
 # 100Days100Codes
-Conheça o projeto "100 Dias de JavaScript" - uma jornada de aprendizado e prática que consiste em realizar um projeto diário com funções do JS.
+
+O projeto "100 Dias de JavaScript" é uma iniciativa criada para ajudar a aprimorar as habilidades em programação com JavaScript. Consiste em um desafio de 100 dias, onde, a cada dia, o participante deve construir um pequeno projeto utilizando funções do JavaScript. Cada projeto é projetado para ensinar e aprimorar diferentes aspectos da linguagem JavaScript, incluindo variáveis, operadores, funções, objetos, manipulação de eventos, DOM e muito mais. Ao final do projeto, os participantes terão uma compreensão sólida do JS e terão desenvolvido um portfólio de projetos impressionantes. O projeto é aberto para todos, independentemente do nível de experiência em JavaScript e é uma ótima maneira de melhorar as habilidades e construir um conjunto de habilidades valioso.

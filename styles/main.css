@@ -1,0 +1,62 @@
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blinking {
+
+    from,
+    to {
+        border-color: transparent;
+    }
+
+    50% {
+        border-color: orange;
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#welcomeTitle {
+    font-family: var(--main-font);
+    font-size: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .15em solid orange;
+    animation: typing 3.5s steps(40, end), blinking .75s infinite;
+    margin: 1rem 0;
+}
+
+#mainMessage {
+    font-family: var(--second-font);
+    font-size: 1rem;
+    margin: 1rem 0rem;
+    color: #e2b502;
+    text-shadow: #00000020 1px 1px 0px;
+}
+
+.card-hub {
+    width: 20rem;
+    height: fit-content;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eaeaea;
+    box-shadow: #00000070 2px 2px 4px;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0rem 2rem;
+}

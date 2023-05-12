@@ -9,7 +9,7 @@ const startButton = document.querySelector("#startButton");
 const stopButton = document.querySelector("#stopButton");
 const audio = document.querySelector("#audio");
 
-startButton.addEventListener("click", start)
+startButton.addEventListener("click", start);
 stopButton.addEventListener("click", stop);
 
 function start() {

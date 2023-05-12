@@ -1,0 +1,68 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 4 - Timer</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../assets/JavaScript-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="timer">
+            <div id="display">
+                <div class="row">
+                    <div class="buttonSection">
+                        <button class="buttons" id="startButton">
+                            Start
+                        </button>
+                        <button onclick="stop()" class="buttons" id="stopButton">
+                            Restart
+                        </button>
+                    </div>
+                </div>
+                <div class="row">
+                    Define:
+                    <div class="row">
+                        Hours
+                        <input type="number" class="define" id="hoursDefine" value="00"></input>
+                    </div>
+                    <div class="row">
+                        Minutes
+                        <input type="number" class="define" id="minutesDefine" value="00"></input>
+                    </div>
+                    <div class="row">
+                        Seconds
+                        <input type="number" class="define" id="secondsDefine" value="00"></input>
+                    </div>
+                </div>
+                <div class="row">
+                    Timer:
+                    <div class="row">
+                        Hours
+                        <div class="time" id="hours">00</div>
+                    </div>
+                    <div class="row">
+                        Minutes
+                        <div class="time" id="minutes">00</div>
+
+                    </div>
+                    <div class="row">
+                        Seconds
+                        <div class="time" id="seconds">00</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div id="endMessage">
+                        Welcome To The Mato
+                    </div>
+                    <audio id="audio" src="welcomeToTheMato.mp3"></audio>
+                    <a href="../index.html" class="nav-link">Voltar pro hub</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Comme&display=swap');
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 1rem auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttonSection {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: 2% auto;
+}
+
+#timer {
+    width: fit-content;
+    height: fit-content;
+    background-color: #252525;
+    border: #d8d8d8 5px solid;
+    padding: 5% 10%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.define {
+    width: fit-content;
+    background-color:transparent;
+    padding: 5% 0%;
+    border: #eaeaea 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #eaeaea;
+}
+
+.time {
+    width: fit-content;
+    background-color:transparent;
+    padding: 5% 10%;
+    border: #eaeaea 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #eaeaea;
+}
+
+#display {
+    font-size: 2rem;
+    color: #d8d8d8;
+    font-family: 'Comme', sans-serif;
+}
+#endMessage {
+    font-size: 1.2rem;
+    color: #af1212;
+    display: none;
+    text-transform: uppercase;
+    font-family: 'Comme', sans-serif;
+}
+
+.buttons {
+    border: #eaeaea 2px solid;
+    border-radius: 10px;
+    padding: 2% 5%;
+    color: #eaeaea;
+    background-color: #252525;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.buttons:hover {
+    background-color: #353535;
+}

@@ -10,18 +10,6 @@
     height: 100%;
 }
 
-#matrix {
-    width: fit-content;
-    height: fit-content;
-}
-
-.text {
-    font-family: 'Comme', sans-serif;
-    color: #353535;
-    font-size: 1.2rem;
-    font-weight: bold;
-}
-
 .row {
     display: flex;
     flex-direction: row;
@@ -31,24 +19,77 @@
     justify-content: center;
 }
 
-.number {
-    font-family: 'Comme', sans-serif;
-    font-weight: bold;
-    text-align: center;
-    border: #252525 2px solid;
+#listBody {
+    list-style: none;
+    background-color: #eaeaea;
     border-radius: 20px;
-    padding: 5% 0%;
+    padding: 5% 10%;
+    box-shadow: #25252570 0px 0px 10px;
+    width: fit-content;
+    height: fit-content;
 }
 
-#calc {
-    border-radius: 10px;
-    padding: 2% 5%;
-    color: #eaeaea;
-    background-color: #252525;
+.listItem {
+    background-color: #eaeaea;
+    border-radius: 20px;
+    box-shadow: #25252570 2px 2px 4px;
+    padding: 1rem 2rem;
+    margin: 1rem 0rem;
+}
+
+/* Esconde o checkbox padrão */
+input[type="checkbox"] {
+    display: none;
+}
+
+/* Estilo para a aparência da caixa de seleção */
+label {
+    display: inline-block;
+    position: relative;
+    padding-left: 2rem;
     cursor: pointer;
+    font-size: 1.5rem;
+}
+
+/* Estilo para a aparência do checkmark (marcador de seleção) */
+label:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+/* Estilo para o checkmark quando o checkbox está marcado */
+input[type="checkbox"]:checked+label:before {
+    background-color: #0bcaa1;
+}
+
+/* Estilo para a aparência do checkmark quando o cursor passa por cima */
+label:hover:before {
+    border-color: #000;
+}
+
+input[type="text"] {
+    background-color: transparent !important;
+    border: none!important;
+    height: fit-content;
     font-size: 1.2rem;
 }
 
-#calc:hover {
-    background-color: #353535;
+.newTaskBtn {
+    border: #25252520 1px solid;
+    font-size: 1.2rem;
+    border-radius: 60%;
+    padding: 0.3rem 0.6rem;
+    transition: 0.5s;
+}
+
+.newTaskBtn:hover {
+    background-color: #0bcaa1;
 }

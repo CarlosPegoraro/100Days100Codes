@@ -11,8 +11,15 @@
 </head>
 <body>
     <div class="container">
-        <canvas id="graphic"></canvas>
-    </div>
+        <div class="canvas-body" style="height:80vh;">
+            <input type="text" id="titleInput" placeholder="Inserir Título">
+            <input type="text" id="subtitleInput" placeholder="Inserir sub-Título">
+            <input type="text" id="descripton" placeholder="Inserir Descrição">
+            <label id="obs">Inserir itens separando por ponto-virgula (;)</label>
+            <canvas id="myChart"></canvas>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
     <script src="script.js"></script>
-</body>
 </html>

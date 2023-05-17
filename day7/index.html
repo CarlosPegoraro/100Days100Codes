@@ -15,8 +15,16 @@
             <input type="text" id="titleInput" placeholder="Inserir Título">
             <input type="text" id="subtitleInput" placeholder="Inserir sub-Título">
             <input type="text" id="descripton" placeholder="Inserir Descrição">
+            <input type="text" id="colunmItem" placeholder="Inserir Colunas">
+            <input type="text" id="rowItem" placeholder="Inserir Colunas">
             <label id="obs">Inserir itens separando por ponto-virgula (;)</label>
-            <canvas id="myChart"></canvas>
+            <button id="generate">Gerar Grafíco</button>
+            <div id="render">
+                <canvas id="myChart"></canvas>
+                <div id="titleRender"></div>
+                <div id="subtitleRender"></div>
+            </div>
+
         </div>
     </body>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>

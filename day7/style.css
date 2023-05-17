@@ -32,11 +32,27 @@ input[type="text"] {
     border: none;
     border-radius: 10px;
     padding: 1rem;
-    margin: 0px 2%;
+    margin: 1% 2%;
 }
 
 #obs {
-    font-size: 12px;
+    font-size: 14px;
+    text-transform: uppercase;
     display: block;
-    text-align: end;
+}
+
+#render {
+    display: none;
+}
+
+#generate {
+    border: none;
+    border-radius: 10px;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: #25252570 1px 1px 4px;
+    transition: 0.5s;
+}
+#generate:hover {
+    background-color: #c5c5c5;
 }

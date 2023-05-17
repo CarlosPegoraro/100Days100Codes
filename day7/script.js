@@ -1,3 +1,6 @@
+const titleInp = document.querySelector("#titleInput")
+const subtitleInp = document.querySelector("#subtitleInput")
+const descriptonInp = document.querySelector("#descripton")
 const ctx = document.getElementById('myChart');
 
 const data = [
